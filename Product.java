@@ -7,7 +7,7 @@ class ProductLoader{
 	private static List<Product> ls=new ArrayList<>();
 	public static void loadProduct() throws Exception {
 		BufferedReader br = new BufferedReader(new FileReader(new File("src/ques2/product.txt")));
-        
+        ls.clear();
         String line;
         while((line=br.readLine())!=null) {
         	String starr[]=line.split(",");

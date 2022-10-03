@@ -35,6 +35,9 @@ public class TestProduct {
             
 			
 		}
+		ProductLoader.loadProduct();
+		System.out.println("The size of array list is : "+ProductLoader.getProductList().size());
+		
 		
 		
 	}
